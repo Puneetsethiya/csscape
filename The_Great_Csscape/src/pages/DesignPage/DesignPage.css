@@ -1,0 +1,60 @@
+/* write your css here */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.margto{
+margin-top: 40px;
+}
+.headInfo{
+    text-align: center;
+    margin-top: -80px;
+}
+.img11{
+    border-radius: 10px;
+    width:28rem;
+    height:15rem
+}
+.marggg
+{
+    margin-top: 30px;
+}
+.spacewaladiv{
+    margin-left:40px;
+}
+.custombtn{
+    padding:10px;
+    border-radius: 7px;
+    background-color: rgb(36, 160, 255);
+    margin-top:13px;
+}
+.dustrara{
+    display: flex;
+    margin-left: 10rem;
+    margin-right:10rem;
+}
+
+.section-title1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  .section-title1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 47.5%; 
+    width: 75px;
+    height: 3px;
+    background: var(--gradient-primary);
+  }
